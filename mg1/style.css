@@ -1,0 +1,26 @@
+.navigasi{                        
+    height: auto;
+    width: 200px;
+    background-color: #1f4061;    
+    font-size: large;    
+}
+.navigasi a{
+    margin-bottom: 10px;    
+}
+.content{            
+    width: 584px;    
+    height: auto;
+    text-align: justify;
+    text-align: center;        
+    background-color: #cbcbb3; 
+}
+footer{
+    text-align: center;
+    padding-top: 30px;
+    color: grey;
+    background-color: #140c0c;
+}
+
+.home, .signup, .about, .contact{
+    margin-bottom: 50px;
+}

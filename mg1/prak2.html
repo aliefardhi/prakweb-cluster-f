@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Praktikum 2</title>
+    <style>
+        input{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sign Up Here</h1>
+    <form action="" method="POST">
+        <label for="fname">First name</label>
+        <input type="text" name="firstname" placeholder="Enter first name">
+        <br>
+        
+        <label for="lname">Last name</label>
+        <input type="text" name="lastname" placeholder="Enter last name">
+        <br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday"> <br>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        
+        <label for="password">Password</label>
+        <input type="password" name="pw" id="pw">
+        <br>
+        
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender" id="gender" value="male">Male <br>
+        <input type="radio" name="gender" id="gender" value="female">Female <br>
+        <input type="radio" name="gender" id="gender" value="other">Other <br>
+        
+        <label for="isemployed">Are you employed?</label>
+        <br>
+        <select name="isemployed" id="isemployed" style="margin-bottom: 10px;">
+            <option value="employed">Yes</option>
+            <option value="employed">No</option>
+            <option value="selfemployed">I am self-employed</option>
+        </select> <br>
+
+        <label for="vehicle">What type of vehicle do you have?</label> <br>
+        <input type="checkbox" name="vehicle" id="vehicle" value="bike">I have a bike <br>
+        <input type="checkbox" name="vehicle" id="vehicle" value="car">I have a car <br>
+
+        <label for="address">Home address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <br>
+
+    <table border="solid" style="border-width: thin; ">
+        <thead style="background-color: grey;">
+            <th colspan="5">Daftar Nama Mahasiswa Praktikum PemWeb Cluster F</th>
+        </thead>
+        <tr>
+            <th>No.</th>
+            <th>NIM</th>
+            <th>Nama Mahasiswa</th>
+            <th>Kelas</th>
+            <th>Jadwal</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>118130122</td>
+            <td>Fandilla Dimas Prayoga</td>            
+            <td>RC</td>
+            <td rowspan="8">Kamis (13.00 - 15.00 WIB)</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>118140168</td>
+            <td>Dita Alviuni Putri</td>
+            <td>RD</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>118140003</td>
+            <td>Alief Moehamad Ardhi</td>
+            <td>RD</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>14117040</td>
+            <td>Yustika Ayu Putri Zalukhu</td>
+            <td>RC</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>118140044</td>
+            <td>Yuni Nurdiyanti</td>
+            <td>RD</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>118140007</td>
+            <td>Lukas Sandy</td>
+            <td>RA</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>118140171</td>
+            <td>Ezra Kornel</td>
+            <td>RA</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>11416140</td>
+            <td>Qisra Lutfi Ranev</td>
+            <td>RA</td>
+        </tr>
+    </table>
+</body>
+</html>
