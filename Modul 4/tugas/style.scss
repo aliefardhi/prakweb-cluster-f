@@ -1,0 +1,61 @@
+$bgcolor: #252f38;
+$margin: 0;
+$padding: 0;
+$pad_nav: 20px 0px 20px 20px;
+
+body{
+    margin: $margin;    
+}
+
+nav{
+    background-color: $bgcolor;
+    padding: $pad_nav;    
+    color: lightgrey;
+    word-spacing: 30px;
+
+    a{
+        color: yellow;
+        text-decoration: none;
+        overflow: hidden;  
+        padding: 14px 20px;
+    }
+    a:hover{
+        background-color: white;
+        color: black;    
+    }
+}
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: auto;
+    width: 50vw;  
+    display: flex;
+
+    .grid{
+        padding: 0 10px;
+        text-align: justify;
+        background-color: #151519;
+        color: rgba(211, 211, 211, 0.938);
+
+        hr{
+            margin-top: -15px;
+        }
+    }
+}
+
+.grid:nth-child(1){        
+    width: 48%;
+}
+.grid:nth-child(2){
+    width: 48%;    
+}  
+
+footer{
+    background-color: $bgcolor;
+    padding: $pad_nav;
+    color: yellow;
+    text-align: center;
+    margin-top: 20px;
+}
