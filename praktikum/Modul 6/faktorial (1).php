@@ -6,14 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-<?php 
-    $n = 5;
+	<?php 
+		$n = 5;
+		$faktorial = 1;
 
-    for($i=0; $i<$n; $i++){
-        $faktorial *= $n;
-    }
-    echo "Faktorial $n = " . $faktorial;
-?>
+		for($i=0; $i<$n; $i++){
+			$faktorial = $faktorial * $i;
+		}
+		echo "Faktorial $n = " . $faktorial;
+	?>
 </body>
 </html>
 
