@@ -7,11 +7,11 @@
 </head>
 <body>
 	<?php 
-		$n = 5;
+		$n = 8;
 		$faktorial = 1;
 
-		for($i=0; $i<$n; $i++){
-			$faktorial = $faktorial * $i;
+		for($i=$n; $i>=1; $i--){
+			$faktorial = $faktorial*$i;
 		}
 		echo "Faktorial $n = " . $faktorial;
 	?>
