@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<dataDiri>
+    <nama>
+        <awal>Alief</awal>
+        <akhir>Ardhi</akhir>
+    </nama>
+
+    <jenisKelamin>Laki-laki</jenisKelamin>
+
+    <alamat>
+        <desa>Surabaya</desa>
+        <kecamatan>Kedaton</kecamatan>
+        <kabupaten>Bandar Lampung </kabupaten>
+    </alamat>
+
+    <sosialMedia>
+        <facebook>Alief M Ardhi</facebook>
+        <instagram>aliefardhi</instagram>
+    </sosialMedia>
+</dataDiri>
